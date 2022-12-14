@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function func () {
+            let kartaRaqami = prompt("karta raqamini kiriting 9ta sondan iborat bolsin:")
+
+            let result = kartaRaqami.slice(-7).padStart(9, "*")
+    
+            console.log(`sizning kiritgan karta raqmingiz:  ${result}`);
+        }
+     
+func()  
+
+    </script>
+</body>
+</html>

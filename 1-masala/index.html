@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+</head>
+<body>
+    <script>
+  
+
+      function func() {
+        let sana = new Date();
+
+        let belgi = prompt("Belgi kiriting :");
+        
+        if(belgi == "-") {
+            alert(sana.toLocaleDateString('uz'));
+        }
+
+        else if (belgi == ".") {
+            alert(sana.toLocaleDateString('ru'));
+        }
+
+      
+        else {
+            alert("Hato belgi kiritdingiz!");
+        } 
+
+      }
+      
+      func()
+
+</script>
+
+</body>
+</html>
